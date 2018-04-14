@@ -16,4 +16,6 @@ int main(int argc, char *argv[])
     std::cout<< "+++start simulate asyn callback"<< std::endl;
     server.asynCallback();
     std::cout<< "---end simulate asyn callback"<< std::endl;
+
+    return 0;
 }
